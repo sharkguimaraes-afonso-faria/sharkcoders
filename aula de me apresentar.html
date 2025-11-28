@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lanf="pt">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O incrivel mundo não de Gumball</title>
+    <style>:root{--bg:#ffffff; --ink:#23b025fb; --muted:#ff0000;
+                --brand:#000000;
+                --container: 800px; /*menor largura*/
+                --radius:7px}
+        body{background:var(--bg);color:var(--ink)}
+        .container{width:var(--container) ;margin:0 auto}   
+        header{background: var(--brand);color: #ffffff;padding: 14px;}
+        .head{display:flex;justify-content:space-between ;align-items: center;}
+        .logo{font-weight: 800;font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
+        nav a{color: #ffffff;text-decoration: none;margin-left: 10px;}
+        nav a:hover{color: #faee04}
+    /*secton*/    
+    section{padding:24px}
+    h1{font-size:24px;margin:0 0 10px} 
+    h2{font-size:20px;color:#0f172a;margin:0 0 10px}
+    p{margin:0 0 8px;color:var(--muted)}
+        /*sobre*/
+        #sobre .wrap{display:grid;grid-template-columns:520px 240px;gap:16px;align-items:center}
+        #sobre img{width: 200px;height: 200px;object-fit:cover;border-radius:var(--radius)}
+
+        /*Galeria*/
+        .grid{display:grid;grid-template-columns: repeat(3,240px);gap:10px}
+        form{width:400px;background:var(--card);border:1px solid #e5e7eb;border-radius:var(--radius);padding:15px}
+    input,textarea{width:100%;margin:10px 0 10px;border:1px solid #cbd5e1;border-radius:6px;font:inherit}
+    button{width:100%;padding:10px;border:0;border-radius:6px;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}
+    button:hover{filter:brightness(.9)}
+      footer{border-top:1px solid #e5e7eb;margin-top:20px;background:#fff}
+    .foot{display:flex;justify-content:space-between;align-items:center;padding:12px;color:var(--muted);font-size:14px}
+    .foot a{color:var(--muted);text-decoration:none}
+    </style>
+    
+
+</head>
+<body>
+    <header>
+        <div class="container head">
+            <div class="logo">Afonso Faria</div>
+            <nav>
+                <a href="#sobre">Sobre </a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Sobre">
+    <div class="container wrap">
+        <div>
+            <h1>Sobre mim</h1>
+            <p>olá olá NEW YORK</p>
+            <p>Eu sou o Afonso Faria</p> 
+            <p>siuuuuuuu</p>
+        </div>
+        <div><p> <img src="c:\Users\Afonso Faria\Desktop\eu.jpg"width="200" height="200"></p>
+            <p><h1>Aquele sou eu ;) ⬆</h1></p>
+        </div>
+    </div>    
+    </section>
+
+    <section id="Hobbies">
+        <div class="container">
+            <h1>Hobbies</h1>
+            <ul>
+                <li>Jogar video-jogos</li>
+                <li>Jogar futebol</li>
+                <li>Programar</li>
+                <li>Jogar basketbol</li>
+                <li>Falar com os meus amigos</li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="Galeria">
+        <div class="container">
+            <h1>Galeria</h1>
+            <div class="grid">
+                <img src="c:\Users\Afonso Faria\Desktop\eu.jpg"width="200" height="200" object-fit: cover>
+                <img src="c:\Users\Afonso Faria\Desktop\Afonso HTML\aula 1\El Pistolero.png"width="200" height="200" object-fit: cover>
+                <img src="c:\Users\Afonso Faria\Desktop\8a77aba922b6687edc64933e130e10e7.jpg"width="200" height="200" object-fit: cover>
+                <img src="c:\Users\Afonso Faria\Desktop\artworks-bJcJzmc46uNOC6wZ-2dPacQ-t1080x1080.jpg"width="200" height="200" object-fit: cover>
+                <img src="c:\Users\Afonso Faria\Desktop\mini.png"width="200" height="200" object-fit: cover>
+                <img src="c:\Users\Afonso Faria\Desktop\morango.png"width="200" height="200" object-fit: cover>
+                <p><a href = "https://www.youtube.com/shorts/CXaIAbROwi8">funy</a></p>
+                </div>
+        </div>
+    </section>
+    <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container foot">
+      <p>© 2067 — Minha Site Pessoal</p>
+      <div><a href="#">Termos</a> · <a href="#">Privacidade</a></div>
+    </div>
+  </footer>
+
+
+
+    
+</body>
+</html>
